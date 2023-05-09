@@ -11,7 +11,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        red: '#FF0000',
+        violet: {
+          DEFAULT: '#5964E0',
+          light: '#939BF4'
+        },
+        blue: {
+          DEFAULT: '#121721',
+          dark: '#19202D'
+        },
+        gray: {
+          DEFAULT: '#9DAEC2',
+          light: '#F4F6F8',
+          dark: '#6E8098'
+        }
       },
     },
   },
